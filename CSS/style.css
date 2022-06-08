@@ -9,12 +9,6 @@
     min-height: 100%;
     padding: 100px 0;
   }
-
-  .conactbg{
-    background: url("../img/AlexRoad.jpg") center center/cover no-repeat;
-    min-height: 100%;
-    padding: 100px 0;
-  }
   
   html{
     font-family: 'Indie Flower', cursive; 
@@ -23,7 +17,7 @@
   .container{
      width: 1200px; 
      min-height: 800px;
-     border: 10px solid #fff;
+     /* border: 10px solid rgba(255, 255, 230, 0.1); */
      margin: 0 auto;
   }
 
@@ -81,6 +75,7 @@
     }
 
     .content_contacts ul a{
+        text-decoration: none;
         list-style-type: none;
         color: rgba(255, 255, 225, 0.9);
         font-size: 30px;
@@ -131,6 +126,25 @@
         width: 800px;
         color: rgba(255, 255, 225, 1);
         font-size: 25px;
+    }
+
+    .udemy {
+        color: rgba(255, 255, 225, 1);
+        text-decoration: none;
+    }
+
+    .footer {
+        display:  flex;
+        flex-direction: column;
+        width: 14%;
+        margin: 0 auto;
+        margin-top: 100px;
+        align-items: stretch;
+        justify-content: flex-start;
+    }
+    .git_footer{
+        color: rgba(255, 255, 225, 1);
+        text-align: center;
     }
 
   
