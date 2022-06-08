@@ -10,7 +10,7 @@
     padding: 100px 0;
   }
 
-  body1{
+  .conactbg{
     background: url("../img/AlexRoad.jpg") center center/cover no-repeat;
     min-height: 100%;
     padding: 100px 0;
@@ -85,7 +85,53 @@
         color: rgba(255, 255, 225, 0.9);
         font-size: 30px;
     }
+
+    .skill_wraper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill_content img {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 30%;
+    }
+    .skill_git img {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 10%;
+    }
+   
+    .skill_gulp img {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 10%;
+    }
+
+    .main_content {
+        position: relative;
+        display:  block;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        width: 500px;
+        color: rgba(255, 255, 225, 0.9);
+        font-size: 30px;
+    }
     
+    .content_about {
+        position: relative;
+        display:  block;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        width: 800px;
+        color: rgba(255, 255, 225, 1);
+        font-size: 25px;
+    }
 
   
 
