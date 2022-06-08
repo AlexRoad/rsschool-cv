@@ -1,5 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-body {
-    font-family: 'Indie Flower', cursive;
-}
+  body{
+    position: relative;
+    background: url("../img/BG_forest.jpg") center center/cover no-repeat;
+  }
+  
+  html{
+    font-family: 'Indie Flower', cursive; 
+  }
+  
+  .container{
+    position: relative;
+     width: 1140px; 
+     margin: 0 auto;
+  }
+  
+  .promo{
+      height: 800px;
+      
+  }
+
+
+  
