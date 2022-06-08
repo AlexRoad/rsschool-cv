@@ -13,7 +13,7 @@
 
 I have two months experience in self-taught front development. I want to improve my knowledge and skills.
 
-### Scills
+### Skills
 
 * HTML
 * CSS/SASS/SCSS

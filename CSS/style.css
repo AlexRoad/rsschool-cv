@@ -5,8 +5,15 @@
   }
 
   body{
-    position: relative;
     background: url("../img/BG_forest.jpg") center center/cover no-repeat;
+    min-height: 100%;
+    padding: 100px 0;
+  }
+
+  body1{
+    background: url("../img/AlexRoad.jpg") center center/cover no-repeat;
+    min-height: 100%;
+    padding: 100px 0;
   }
   
   html{
@@ -14,15 +21,72 @@
   }
   
   .container{
-    position: relative;
-     width: 1140px; 
+     width: 1200px; 
+     min-height: 800px;
+     border: 10px solid #fff;
      margin: 0 auto;
   }
-  
-  .promo{
-      height: 800px;
-      
+
+  h1{
+    color: rgba(255, 255, 230, 0.8);
+  }
+  h2{
+    color: rgba(255, 255, 190, 0.6);
   }
 
+  .header{
+      display: flex;
+      height: 150px;
+      
+    }
+
+    .main{
+        text-align: center;
+        width: 1000%;
+        height: 100%;
+        /* border: 2px solid red; */
+        font-size: 23px;
+    }
+
+    .nav ul {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 30px;
+        color: rgba(255, 255, 220, 1);
+        font-weight: bold;
+    }
+    
+    .nav li {
+        list-style-type: none;
+    }
+
+    .nav li a {
+        padding: 20px;
+        display: flex;
+        text-decoration: none;
+        color: rgba(255, 255, 190, 0.5);
+        transition: color 0.4s ease;
+    }
+    
+    .nav li a:hover {
+        color: rgba(255, 255, 255, 0.9);
+        transition: color 0.6s ease;
+    }
+
+    .content_contacts{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content_contacts ul a{
+        list-style-type: none;
+        color: rgba(255, 255, 225, 0.9);
+        font-size: 30px;
+    }
+    
+
+  
 
   
