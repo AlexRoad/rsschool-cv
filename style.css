@@ -5,7 +5,7 @@
   }
 
   body{
-    background: url("../img/BG_forest.jpg") center center/cover no-repeat;
+    background: url("img/BG_forest.jpg") center center/cover no-repeat;
     min-height: 100%;
     padding: 100px 0;
   }
@@ -147,19 +147,19 @@
     }
 
     .contact_body {
-        background: url('../img/AlexRoad.jpg') center center/cover no-repeat;
+        background: url('img/AlexRoad.jpg') center center/cover no-repeat;
         min-height: 100%;
         padding: 100px 0;
     }
 
     .skills_body {
-        background: url('../img/BG_skills.jpg') center center/cover no-repeat;
+        background: url('img/BG_skills.jpg') center center/cover no-repeat;
         min-height: 100%;
         padding: 100px 0;
     }
 
     .about_body {
-        background: url('../img/BG_about.jpg') center center/cover no-repeat;
+        background: url('img/BG_about.jpg') center center/cover no-repeat;
         min-height: 100%;
         padding: 100px 0;
     }
