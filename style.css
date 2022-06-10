@@ -17,13 +17,13 @@
   .container{
      width: 1200px; 
      min-height: 800px;
-     /* border: 10px solid rgba(255, 255, 230, 0.1); */
      margin: 0 auto;
   }
 
   h1{
     color: rgba(255, 255, 230, 0.8);
   }
+
   h2{
     color: rgba(255, 255, 190, 0.6);
   }
@@ -31,14 +31,12 @@
   .header{
       display: flex;
       height: 150px;
-      
     }
 
     .main{
         text-align: center;
         width: 1000%;
         height: 100%;
-        /* border: 2px solid red; */
         font-size: 23px;
     }
 
@@ -47,7 +45,6 @@
         display: flex;
         justify-content: space-around;
         font-size: 30px;
-    /*     color: rgba(255, 255, 255, 0.9); */
         font-weight: bold;
     }
     
@@ -92,6 +89,7 @@
         margin-top: 10px;
         width: 30%;
     }
+
     .skill_git img {
         display: flex;
         margin: 0 auto;
@@ -142,6 +140,7 @@
         align-items: stretch;
         justify-content: flex-start;
     }
+    
     .git_footer {
         color: rgba(255, 255, 225, 1);
         text-align: center;
